@@ -14,7 +14,7 @@ Time spent: **20** hours spent in total
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough: ![1 4](https://user-images.githubusercontent.com/37822922/40213482-875005f2-5a0a-11e8-92ad-09aa70a5a6b0.gif)
   - [ ] Steps to recreate: You would need to type in a code with over 64kb of comments in order for it to work. Such as the following: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> once this is done you would press submit and an alert box pops up.
-  - [ ] Affected source code:
+  - [ ] Affected source code:<img width="593" alt="screen shot 2018-05-18 at 1 24 59 am" src="https://user-images.githubusercontent.com/37822922/40225322-90f18abc-5a3d-11e8-9565-bbf9a5a1b939.png">
   
 2. Fingerprinting 
 The WordPress 'http://wpdistillery.vm/readme.html' file exists exposing a version number
