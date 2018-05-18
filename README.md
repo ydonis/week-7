@@ -1,5 +1,7 @@
 # week-7
 # Project 7 - WordPress Pentesting
+![2 1](https://user-images.githubusercontent.com/37822922/40214433-8c91035e-5a0f-11e8-85e6-f09200266764.gif)
+
 
 Time spent: **20** hours spent in total
 
