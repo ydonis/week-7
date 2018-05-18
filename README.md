@@ -3,35 +3,32 @@
 
 Time spent: **20** hours spent in total
 
-> Objective: Find, analyze, recreate, and document **five vulnerabilities** affecting an old version of WordPress
+> Objective: Find, analyze, recreate, and document **three vulnerabilities** affecting an old version of WordPress
 
 ## Pentesting Report
 
-1. Title: WordPress <= 4.2 - Unauthenticated Stored Cross-Site Scripting (XSS)
+1. Unauthenticated StorCrossed -Site Scripting (XSS)
   - [ ] Summary: 
     - Vulnerability types: 
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
-  - [ ] GIF Walkthrough: 
-  - [ ] Steps to recreate: You would need to type in a code with over 64kb of comments in order for it to work. Such as the following: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> once this is done you would press submit and a box pops up.
+  - [ ] GIF Walkthrough: ![1 4](https://user-images.githubusercontent.com/37822922/40213482-875005f2-5a0a-11e8-92ad-09aa70a5a6b0.gif)
+  - [ ] Steps to recreate: You would need to type in a code with over 64kb of comments in order for it to work. Such as the following: <a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  AAAAAAAAAAAA...[64 kb]..AAA'></a> once this is done you would press submit and an alert box pops up.
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. Fingerprinting 
+2. Fingerprinting 
 The WordPress 'http://wpdistillery.vm/readme.html' file exists exposing a version number
   - [ ] Summary: One is able to see the version number which is not updated to the current 4.9. Therefor one can find the vulnerabilities available with that version of WordPress and attack it in that manner. 
     - Vulnerability types:
     - Tested in version: 4.2
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:![2 3](https://user-images.githubusercontent.com/37822922/40213483-885f20c2-5a0a-11e8-8d77-71d164ce6270.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
-1. (Required) Vulnerability Name or ID
+3. Privilege Escalation
   - [ ] Summary: 
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough: 
+  - [ ] GIF Walkthrough:![3 1](https://user-images.githubusercontent.com/37822922/40213484-89468282-5a0a-11e8-8099-450445ed516b.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
-    - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
