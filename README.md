@@ -33,4 +33,4 @@ The WordPress 'http://wpdistillery.vm/readme.html' file exists exposing a versio
     - Fixed in version: 
   - [ ] GIF Walkthrough:![3 2](https://user-images.githubusercontent.com/37822922/40214119-e56e3e9e-5a0d-11e8-8efc-1a1a3e66bd85.gif)
   - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Affected source code:<img width="1312" alt="screen shot 2018-05-17 at 8 12 12 pm" src="https://user-images.githubusercontent.com/37822922/40214271-a99e37ec-5a0e-11e8-8508-1e00fcb6d1bb.png">
