@@ -31,6 +31,6 @@ The WordPress 'http://wpdistillery.vm/readme.html' file exists exposing a versio
     - Vulnerability types:
     - Tested in version:
     - Fixed in version: 
-  - [ ] GIF Walkthrough:![3 1](https://user-images.githubusercontent.com/37822922/40213484-89468282-5a0a-11e8-8099-450445ed516b.gif)
+  - [ ] GIF Walkthrough:![3 2](https://user-images.githubusercontent.com/37822922/40214119-e56e3e9e-5a0d-11e8-8efc-1a1a3e66bd85.gif)
   - [ ] Steps to recreate: 
   - [ ] Affected source code:
