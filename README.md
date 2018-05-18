@@ -21,16 +21,16 @@ The WordPress 'http://wpdistillery.vm/readme.html' file exists exposing a versio
   - [ ] Summary: One is able to see the version number which is not updated to the current 4.9. Therefor one can find the vulnerabilities available with that version of WordPress and attack it in that manner. 
     - Vulnerability types:
     - Tested in version: 4.2
-    - Fixed in version: 
+    - Fixed in version: Has not been fixed.
   - [ ] GIF Walkthrough:![2 3](https://user-images.githubusercontent.com/37822922/40213483-885f20c2-5a0a-11e8-8d77-71d164ce6270.gif)
-  - [ ] Steps to recreate: 
-  - [ ] Affected source code:
+  - [ ] Steps to recreate: By opening up the readme file and reading the very first sentence on the page. It will tell you what version of wordpress is currently installed.
+  - [ ] Affected source code:<img width="575" alt="screen shot 2018-05-18 at 2 11 39 am" src="https://user-images.githubusercontent.com/37822922/40226576-e2733b12-5a40-11e8-8540-a50a519c2b18.png">
   
 3. Privilege Escalation
   - [ ] Summary: 
     - Vulnerability types:
-    - Tested in version:
-    - Fixed in version: 
+    - Tested in version: 4.2
+    - Fixed in version: 4.7.2
   - [ ] GIF Walkthrough:![3 2](https://user-images.githubusercontent.com/37822922/40214119-e56e3e9e-5a0d-11e8-8efc-1a1a3e66bd85.gif)
-  - [ ] Steps to recreate: 
+  - [ ] Steps to recreate: You go to the website and leave a comment, any comment. Once the admin accepts just one of the comments on to the site. Then you are able to bypass any other approval by the moderator on future comments. 
   - [ ] Affected source code:<img width="1312" alt="screen shot 2018-05-17 at 8 12 12 pm" src="https://user-images.githubusercontent.com/37822922/40214271-a99e37ec-5a0e-11e8-8508-1e00fcb6d1bb.png">
